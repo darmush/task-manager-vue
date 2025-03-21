@@ -1,32 +1,49 @@
-# task-manager-vue
+# Task Manager on Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+This project was created as part of learning JavaScript and Vue 3.
+This is a simple task manager on Vue 3 with a calendar and tags.
 
-## Recommended IDE Setup
+[Open website](https://darmush.github.io/task-manager-vue/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+**Tasks:**
 
-## Type Support for `.vue` Imports in TS
+- task creation card with description, tag selection, due date,
+- list of all tasks with sorting, pinned tasks and pagination,
+- implement the ability to edit a task and tags,
+- use Pinia Store to manage the state of the app,
+- storing tasks in Local Storage.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+**Tech Stack:**
+
+- [Vue 3](https://https://vuejs.org/)
+- JavaScript
+- [Pinia](https://pinia.vuejs.org/)
+- [TailWind CSS](https://tailwindcss.com/)
 
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+## How to Install
+
+You need to install **Node JS** to run building the project.
+You can download pre-built packages from the [Node.js](https://nodejs.org/en/) website for your operating system.
+
+Install dependencies:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## How to Run
+
+Start the dev server:
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+Ship the app to production:
 
 ```sh
 npm run build
