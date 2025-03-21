@@ -5,6 +5,8 @@ This is a simple task manager on Vue 3 with a calendar and tags.
 
 [Open website](https://darmush.github.io/task-manager-vue/)
 
+![](for-readme.gif)
+
 **Tasks:**
 
 - task creation card with description, tag selection, due date,
